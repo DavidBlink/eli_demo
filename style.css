@@ -189,6 +189,7 @@
 
 	.navigator .slider-control.left,
 	.navigator .slider-control.right {
+		display: none;
 		height: auto;
 		width: 100%;
 		background-color: transparent;
@@ -206,6 +207,7 @@
 
 	.navigator .slider-control.left:before,
 	.navigator .slider-control.right:after {
+		display: none;
 		font-family: 'FontAwesome';
 		position: absolute;
 		margin-top: 0;
@@ -221,10 +223,12 @@
 
 	.navigator .slider-control.left {
 		padding-left: 58px;
+		
 	}
 	.navigator .slider-control.right {
 		left: 0;
 		padding-right: 58px;
+		
 	}
 	.navigator .slider-control.left:before {
 		content: "\f104";
@@ -282,7 +286,11 @@
 	.content_type_clase_eli_demo .publisher-navbar {
 		position: fixed;
 		top: 44px;
-		background: #ffffff;
+		background: #ffffff; /* Old browsers */
+		background: -moz-linear-gradient(left, #ffffff 0%, #009ba4 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left, #ffffff 0%,#009ba4 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, #ffffff 0%,#009ba4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#009ba4',GradientType=1 );
 		width: 100%;
 		left: 0;
 		height: 58px;
@@ -345,30 +353,32 @@
 		bottom: 0px;
 		left: 0px;
 		z-index: 0;
-		background-color: #ffffff;
+		background-color: transparent;
 	    color: #00599C;
 	}
 
 
-	.content_type_clase_eli_demo .publisher-navbar .dropdown button,
-	.content_type_clase_eli_demo .publisher-navbar li {
-		border-radius: 5px;
-		border: none;
-		background-color: transparent;
-		color: #ffffff;
-		vertical-align: middle;
-		margin: 0px 5px;
-		text-indent: 0px;
-		line-height: 3.5rem;
-		font-size: 2.0rem;
-		font-weight: 400;
-		cursor: pointer;
-		background: #5ebdb2;
-		border-radius: 120px;
+	.content_type_clase_eli_demo .publisher-navbar .dropdown button, .content_type_clase_eli_demo .publisher-navbar li {
+    border-radius: 0;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0px 5px;
+    text-indent: 0px;
+    line-height: 35px;
+    font-size: 20px;
+    font-size: 2.0rem;
+    font-weight: bold;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 0px;
+    border-right: 3px solid #fff;
 	}
+
+
 	.content_type_clase_eli_demo .publisher-navbar .dropdown button {
-		background: none;
-		color: #5ebdb2;
+		display: none;
 	}
 
 	.content_type_clase_eli_demo .slider-indicators:after {
@@ -385,14 +395,19 @@
 		height: 35px;
 		margin: 0 8px 0 0;
 		text-align: center;
-		opacity: 0.5;
+		opacity: 1;
 		position: relative;
 	}
 
-	.content_type_clase_eli_demo .slider-indicators li.active,
-	.content_type_clase_eli_demo .publisher-navbar li:hover {
+	.content_type_clase_eli_demo .slider-indicators li.active, .content_type_clase_eli_demo .publisher-navbar li:hover {
 		opacity: 1;
-		background:#f9bfad;
+		background: transparent;
+	}
+
+	.slider-indicators li.active, .content_type_clase_eli_demo .publisher-navbar li:hover {
+    opacity: 1;
+    border-right: 3px solid #009ba4 !important;
+
 	}
 
 	.content_type_clase_eli_demo .publisher-navbar #top-navigator {
@@ -406,10 +421,12 @@
 		display: block;
 	}
 
+	/*	
 	.content_type_clase_eli_demo .publisher-navbar .dropdown button {
 		width: auto;
 		padding: 0px 10px;
 	}
+	*/
 
 	.open > .dropdown-menu {
 		display: block;
@@ -417,9 +434,11 @@
 		overflow-y: auto;
 	}
 
+	/*
 	.content_type_clase_eli_demo .publisher-navbar .dropdown button {
 		border: none;
 	}
+	*/
 
 	.content_type_clase_eli_demo .publisher-navbar .dropdown button:focus {
 		outline: none;
@@ -432,19 +451,88 @@
 	}
 
 	.content_type_clase_eli_demo .publisher-navbar .dropdown li a {
-		color: #5ebdb2;
+		color: #000000;
+   	 font-family: 'Raleway', Georgia, serif;
+   	 font-size: medium;
 	}
 
 	.content_type_clase_eli_demo .publisher-navbar .dropdown .caret {
-		border-color: #5ebdb2 transparent transparent transparent;
+		border-color: #000000 transparent transparent transparent;
 		margin-left: 6px;
 
 	}
 /**/
 
+/*TOC*/
+
+#indice .unit-content .header {
+    background-image: url('https://www.blinklearning.com/useruploads/r/c/1587390/portadilla27042018_222257.png')!important;
+}
+
+#indice .unit-content .header {
+    background-color: #446CA9;
+}
+
+body:not(.isTablet) #indice .units ul li:hover, #indice .units ul li:focus, #indice .units ul li.active {
+    background: #FFE01C;
+}
+
+#indice .units ul li {
+    padding-bottom: 13px;
+    padding-top: 13px;
+    margin-bottom: 1px;
+    border-radius: 0px;
+}
+
+#indice .units ul li.active:not(.disabled), body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
+    border-left: 10px solid #fff;
+    background: #009ba4;
+}
+
+a:hover, a:active, a:focus {
+    color: #FFE01C; 
+    font-weight: 700;
+}
+
+#indice .unit-content {
+    border-radius: 0px;
+}
+
+#indice .unit-content .actividades .item .title {
+    font-weight: 400;
+}
+
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
+    font-weight: 900;
+    text-transform: none;
+    font-size: 2rem;
+}
+
+#indice .units ul li a .title {
+    color: #fff;
+    text-transform: none;
+    font-weight: 100;
+}
+
+#indice .unit-content .header .title {
+    color: #fff;
+    text-transform: none;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+
+.content_type_clase_sm_activities .btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
+    margin-top: 0px;
+    background-color: #009ba4;
+    border-radius: 0px;
+}
+
+
 /* Pagination */
 
 .js-slide-wrapper > .header .single-pagination {
+	display: none;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -461,10 +549,52 @@
 	border-radius: 0 0 120px 0;
 }
 
+/*memory*/
+
+.workspace.memory .front {
+    background: url(/useruploads/r/a/91113120/activity_other_imported/cover_memory2.png) center center / 120px auto no-repeat !important;
+}
+
+.memory .bck-i-fullscreen-wrapper {
+    margin-left: -20px;
+    width: 150px;
+    padding: 0px;
+}
+
+#actividad .memory .box p {
+    display: block;
+    margin-top: 0px;
+   margin-left: -8px;
+}
+
+#actividad .workspace.memory .box {
+    padding: 0px !important;
+}
+
+#actividad .workspace.memory .opcion img {
+    margin-left: -8px !important;
+    max-width: 136px;
+    max-height: 136px !important;;
+}
+/*fin memory*/
+
+/*CRUCIGRAMA*/
+
+.content .crucigrama ol li:before, .cke_contents ol li:before {
+    content: counter(bck-li-counter)'';
+    margin-left: -20px;
+}
+
+.slide.crosswords-puzzle .enunciados {
+    width: 300px;
+    padding: 10px;
+}
+
+
 /* Iconos */
 
 #actividad .player.audio {
-	background: url(images/modern_audio.png) 0 0 no-repeat;
+	background: url(images/eli_demo_audio.png) 0 0 no-repeat;
 	background-size: contain;
 	width: 36px;
 	height:24px;
@@ -474,7 +604,7 @@
 }
 
 #actividad .player.video {
-	background: url(images/modern_video.png) 0 0 no-repeat;
+	background: url(images/eli_demo_video.png) 0 0 no-repeat;
 	background-size: contain;
 	width: 36px;
 	height:24px;
@@ -487,7 +617,17 @@
 	display: none;
 }
 
+
+/*negrita*/
+b, strong {
+    font-weight: bold;
+    color: black;
+}
+
+
 /* CKEDITOR */
+
+/*TITULOS*/
 
 	.bck-title1,
 	.bck-title2,
@@ -517,11 +657,15 @@
 		clear: both;
 		padding: 10px 20px 0px 0;
 		margin-bottom: 20px;
+		color: #6099b9;
+    	border-bottom: 10px solid #fff;
 	}
 
 	.bck-title3 {
 		font-size: 1.6rem;
 	}
+
+	/*ENFASIS*/
 
 	.bck-enfasis,
 	strong {
@@ -534,6 +678,8 @@
 		border: 0;
 		border-top: 2px dashed #f9bfad;
 	}
+
+	/*LISTAS ORDENADAS*/
 
 	.content ol,
 	.cke_contents ol {
@@ -550,15 +696,17 @@
 
 	.content ol li:before,
 	.cke_contents ol li:before {
-		content: counter(bck-li-counter)') ';
+		content: counter(bck-li-counter)'';
 		position: absolute;
-		margin-left: -30px;
+		margin-left: auto;
 		font-weight: bold;
 		font-size: 2.0rem;
 		text-align: right;
-		color: #5ebdb2;
-		margin-top: -2px;
+		color: #005786;
+		margin-top: 2px;
 	}
+
+	/*LISTAS DESORDENADAS*/
 
 	.texto_curso ul li,
 	.workspace ul li ul li,
@@ -618,6 +766,9 @@
 		background: #dcdcdc;
 	}
 
+
+	/*CAJAS*/
+
 	.bck-box {
 		margin-bottom: 30px;
 	}
@@ -639,12 +790,12 @@
 	}
 
 	.bck-box.box-1 {
-		border: 3px solid #5ebdb2;
-		background: #ffffff;
-		padding: 40px;
-		position: relative;
-		margin-top: 60px;
-		border-radius: 40px;
+		border: 0px;
+    	background: #000;
+    	padding: 25px;
+    	position: relative;
+    	margin-top: 0px;
+    	border-radius: 0px;
 	}
 
 	.bck-box.box-1 hr {
@@ -764,7 +915,67 @@
 		font-size: 2.0rem;
 	}
 
-/**/
+#iframe_div.scorm {
+    width: 95% ! important;
+    height: 95% ! important;
+    top: 3% ! important;
+    left: 3% ! important;
+    background-color: #CCCCCC;
+}
+
+/*Querys*/
+
+@media screen and (max-width: 450px){
+
+.content ol li, .cke_contents ol li {
+    counter-increment: bck-li-counter 1;
+    position: relative;
+    padding-left: 0px;
+}
+
+.bck-indent-1 {
+    margin-left: 15px;
+}
+
+#actividad .carousel-inner .class_slide {
+    padding: 10px 5px 0px;
+}
+
+#actividad .workspace.chooseblanks .inline-answer a {
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid #cfcfcf;
+    padding: 2px;
+    margin: 0 2px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+}
+
+.slide.crosswords-puzzle .enunciados {
+    border: 0px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    display: inline-block;
+    width: 350px;
+    padding: 1rem 3rem;
+    line-height: 2.1rem;
+}
+
+.slide.crosswords-puzzle table.puzzle td {
+    width: 15px;
+    height: 15px;
+}
+
+a#boton_notes {
+    display: none;
+}
+a#boton_borrador {
+    display: none;
+}
+}
+
 
 @media screen and (max-width: 1099px) {
     .body_clase .content-wrapper {
@@ -786,10 +997,20 @@
   		border-right: 1px solid #eee;
     }
 
+    /*logo*/
     .content_type_clase_eli_demo .logo-publisher {
-		margin-right: 0px;
-	}
+    content: " ";
+    background-image: url(http://www.elionline.com/res/ftpeli/layout/images/logo-eng.png);
+    height: 51px;
+    background-repeat: no-repeat;
+    width: 122px;
+    margin-left: -112px;
+    margin-right: 147px;
+    margin-top: -8px;
+    float: left;
+    background-size: contain;
 }
+
 
 @media screen and (max-width: 992px) {
 	#actividad .class_slide {
