@@ -2,6 +2,16 @@
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,700italic,500italic,500);
 
+/* Fonts */
+
+    @font-face {
+      font-family: DanteMT;
+      src: url(fonts/DanteMT.otf);
+    }
+
+
+
+
 	.body_clase .content-wrapper {
 		padding-top: 100px;
 		font-family: 'Raleway', Georgia, serif;
@@ -88,7 +98,9 @@
 	}
 
 	#actividad .class_slide {
-    	padding: 40px 97px 0px;
+    	padding: 40px 120px 0px;
+   	    font-family: DanteMT;
+    	font-size: 32px;
 	}
 
 	#actividad .class_slide:last-of-type {
