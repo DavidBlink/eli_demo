@@ -25,6 +25,7 @@
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
 				{ name: 'Enunciado actividad', element: 'h4', attributes: { 'class': 'bck-title-activity' }},
 				{ name: 'Color-popup', element: 'span', attributes: { 'class': 'bck-enfasis2' }},
+				{ name: 'Color Azul', element: 'span', attributes: { 'class': 'bck-enfasis3' }},
 				
 				{ name: 'Lista Desordenada1', element: 'ul', attributes: { 'class': 'bck-ul-1'} },
 				{ name: 'Lista Desordenada2', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
