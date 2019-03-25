@@ -714,8 +714,8 @@ b, strong {
 
 	.bck-enfasis,
 	strong {
-		color: #f9bfad;
 		font-weight: bold;
+   		color: black;
 	}
 
 	.content hr,
@@ -727,6 +727,11 @@ b, strong {
 
 	.bck-enfasis2 {
 		color: #18a19a;
+   		font-weight: 900;
+	}
+
+	.bck-enfasis3 {
+		color: #0d5da2;
    		font-weight: 900;
 	}
 
