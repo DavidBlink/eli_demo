@@ -74,15 +74,15 @@
 	}
 
 	.content_type_clase_eli_demo #actividad .content .header .title h3 {
-    	font-family: dantemt;
-    	font-size: 4.0rem;
-    	font-weight: 500;
-    	color: #e65a53;
-    	display: block;
-    	padding: 60px 20px 20px 0px;
-    	margin-top: -43px;
-    	margin-bottom: 20px;
-	}
+    font-family: dantemt;
+    font-size: 4.0rem;
+    font-weight: 500;
+    color: #e65a53;
+    display: block;
+    padding: 20px 20px 20px 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
 	.content_type_clase_eli_demo #actividad .content .header .title h3 span {
 		display: block;
 		font-size:2.2rem;
@@ -651,7 +651,6 @@ b, strong {
 	.bck-title2,
 	.bck-title3,
 	.bck-title-activity {
-		font-family: 'Raleway', Georgia, serif;
 		font-weight: bold;
 	 	color: #5ebdb2;
 	}
@@ -682,6 +681,23 @@ b, strong {
 	.bck-title3 {
 		font-size: 1.6rem;
 	}
+
+	/*Tit Actividades*/
+	.bck-title4 {
+		font-size: 2.5rem;
+		color: orange;
+		font-weight: bold;
+		text-decoration: underline;
+		text-decoration-style: dashed;
+		text-decoration-color: blue;
+	}
+
+	/*Tit Actividades 2*/
+	.bck-title5 {
+		
+	}
+
+
 
 	/*ENFASIS*/
 
