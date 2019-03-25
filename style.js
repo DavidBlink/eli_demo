@@ -26,6 +26,14 @@
 				{ name: 'Enunciado actividad', element: 'h4', attributes: { 'class': 'bck-title-activity' }},
 				{ name: 'Color-popup', element: 'span', attributes: { 'class': 'bck-enfasis2' }},
 				
+				{ name: 'Lista Desordenada1', element: 'ul', attributes: { 'class': 'bck-ul-1'} },
+				{ name: 'Lista Desordenada2', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
+				{ name: 'Lista Desordenada3', element: 'ul', attributes: { 'class': 'bck-ul-3'} },
+							
+				{ name: 'Lista NumeroNaranja', element: 'ol', attributes: { 'class': 'bck-ol-1' } },
+				{ name: 'Lista Letra', element: 'ol', attributes: { 'class': 'bck-ol-2' } },
+				{ name: 'Lista Numero', element: 'ol', attributes: { 'class': 'bck-ol-3' } },
+				
 
 				{ name: 'Tabla centrada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
 				{ name: 'Celda encabezado', element: 'td', attributes: { 'class': 'bck-td' } },
