@@ -832,14 +832,14 @@ b, strong {
 #actividad .popover-content ol.bck-ol-2 li:before,
 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
     content: counter(bck-li-counter, upper-alpha)" ";
+    font-size: 2.5rem;
     position: absolute;
     text-align: center;
     color: #0d5da2;
+    margin-left: -25px;
     line-height: normal;
-    margin-left: -20px;
-    line-height: unset;
     font-weight: bold;
-    margin-top: -1px;
+    margin-top: -2px;
 }
 
 	/*LISTA Numero*/
@@ -869,12 +869,13 @@ b, strong {
 #actividad .content .workspace ul li ol.bck-ol-3 li:before {
     content: counter(bck-li-counter);
     position: absolute;
+    font-size: 2.5rem;
     text-align: center;
     color: #0d5da2;
     line-height: normal;
-    margin-left: -20px;
+    margin-left: -25px;
     line-height: unset;
-    font-weight: 600;
+    font-weight: bold;
     margin-top: -1px;
 }
 
