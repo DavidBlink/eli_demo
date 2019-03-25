@@ -90,7 +90,7 @@
 	}
 	.content_type_clase_eli_demo #actividad .texto_curso,
 	.content_type_clase_eli_demo #actividad .slide_content_type_1 .pregunta .texto_curso {
-		font-size: 1.6rem;
+		font-size: 2rem;
 	}
 
 	.texto_curso p:last-of-type {
@@ -697,6 +697,14 @@ b, strong {
 		border: 0;
 		border-top: 2px dashed #f9bfad;
 	}
+
+
+	/*TOOLTIP*/
+	.bck-tooltip, .bck-underline {
+    text-decoration: inherit;
+    color: #18a19a;
+    font-weight: 900;
+}
 
 	/*LISTAS ORDENADAS*/
 
