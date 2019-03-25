@@ -1039,24 +1039,13 @@ b, strong {
     transform: translateX(0);
 }
 
-.info-template.shown:hover {
-    background: #fff;
-    background: -moz-linear-gradient(135deg,#029ca5 0,#14a3ab 100%);
-    background: -webkit-linear-gradient(135deg,#029ca5 0,#14a3ab 100%);
-    background: -webkit-linear-gradient(135deg,#029ca5 0,#14a3ab 100%);
-    background: -moz-linear-gradient(135deg,#029ca5 0,#14a3ab 100%);
-    background: -o-linear-gradient(135deg,#029ca5 0,#14a3ab 100%);
-    background: linear-gradient(135deg,#029ca5 0,#14a3ab 100%);
-    -webkit-transform: translateX(-3px);
-    -moz-transform: translateX(-3px);
-    -ms-transform: translateX(-3px);
-    -o-transform: translateX(-3px);
-    transform: translateX(-3px);
-    -webkit-transition: all 1s ease-in-out;
--moz-transition: all 1s ease-in-out;
--ms-transition: all 1s ease-in-out;
--o-transition: all 1s ease-in-out;
-transition: all 1s ease-in-out;
+.info-template:hover {
+	width: 115px;
+	-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
 }
 
 .info-popover .popover-title:before, .popover-template .popover-title:before {
