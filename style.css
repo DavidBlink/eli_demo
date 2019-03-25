@@ -693,17 +693,19 @@ b, strong {
 	.bck-title4 {
 		font-family: Gotham;
 		font-size: 2.5rem;
-		color: orange;
+		color: #cd6621;
 		font-weight: bold;
-		text-decoration: underline;
-		text-decoration-style: dashed;
-		text-decoration-color: blue;
+		text-decoration: underline dashed blue;
+
 	}
 
 	/*Tit Actividades 2*/
 	.bck-title5 {
 		font-family: Gotham;
-
+		font-size: 3rem;
+		font-weight: 700;
+		color: #a4b4bf;
+		border-bottom: 3px solid #fff;
 	}
 
 
