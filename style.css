@@ -1016,6 +1016,7 @@ b, strong {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
+    border: 1px solid #0c98a0;
     background: #fff;
     color: #019ba4;
     font-family: 'FontAwesome';
@@ -1037,6 +1038,32 @@ b, strong {
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
+}
+
+.info-template {
+    position: fixed;
+    top: 117px;
+    right: 0;
+    -webkit-transform: translateX(105%);
+    -moz-transform: translateX(105%);
+    -ms-transform: translateX(105%);
+    -o-transform: translateX(105%);
+    transform: translateX(105%);
+    z-index: 1000;
+    width: 100px;
+    height: auto;
+    -webkit-box-shadow: 0 0 2px #555;
+    -moz-box-shadow: 0 0 2px #555;
+    box-shadow: 0 0 2px #555;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
+    background: #fff;
+    padding: 15px 5px 0;
+    -webkit-transition: all ease-in-out .5s;
+    -o-transition: all ease-in-out .5s;
+    -moz-transition: all ease-in-out .5s;
+    transition: all ease-in-out .5s;
 }
 
 .info-template:hover {
