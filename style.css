@@ -511,10 +511,20 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
 }
 
 #indice .unit-content .header .title {
-    color: #fff;
+    color: #009ba4;
     text-transform: none;
-    font-weight: 400;
-    font-size: 26px;
+    font-weight: 800;
+    font-size: 27px;
+    float: left;
+    height: 60px;
+    line-height: 23px;
+    margin: 20px 140px 20px 17px;
+    z-index: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 
