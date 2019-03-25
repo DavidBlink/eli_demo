@@ -466,7 +466,7 @@
 /*TOC*/
 
 #indice .unit-content .header {
-    background-image: url(images/portadilla-eli.jpg);
+    background-image: url(images/portadilla-eli.jpg)!important;
 }
 
 body:not(.isTablet) #indice .units ul li:hover, #indice .units ul li:focus, #indice .units ul li.active {
