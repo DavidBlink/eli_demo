@@ -760,10 +760,124 @@ b, strong {
 		margin-left: auto;
 		font-weight: bold;
 		font-size: 2.0rem;
-		text-align: right;
-		color: #005786;
 		margin-top: 2px;
 	}
+
+
+	/*LISTA NumeroNaranja*/
+	#actividad .content .cke_contents .bck-ol-1,
+	#actividad .content .texto_curso .bck-ol-1,
+	#actividad .content .workspace ul li .bck-ol-1 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+	}
+
+	#actividad .content .cke_contents .bck-ol-1 li,
+	#actividad .content .cke_contents .bck-ol-1 li,
+	#actividad .content .texto_curso .bck-ol-1 li,
+	#actividad .popover-content .bck-ol-1 li,
+	#actividad .content .workspace ul li .bck-ol-1 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    font-weight: 700;
+    margin-left: 0px;
+    margin-top: 10px;
+    color: blue;
+	}
+
+
+	#actividad .content .cke_contents .bck-ol-1 li:before,
+	#actividad .content .texto_curso .bck-ol-1 li:before,
+	#actividad .popover-content .bck-ol-1 li:before,
+	#actividad .content .workspace ul li .bck-ol-1 li:before {
+    content: counter(bck-li-counter);
+    width: 26px;
+    height: auto;
+    position: absolute;
+    color: #ef511a;
+    margin-left: -20px;
+    margin-right: 0px;
+    text-align: center;
+    font-size: 1.8rem;   
+    font-weight: normal;
+	}
+
+
+	/*LISTA Letra*/
+#actividad .content .cke_contents .bck-ol-2,
+#actividad .content .texto_curso .bck-ol-2,
+#actividad .content .workspace ul li .bck-ol-2 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+    margin-left: 20px;
+}
+
+#actividad .content .cke_contents .bck-ol-2 li,
+#actividad .content .cke_contents .bck-ol-2 li,
+#actividad .content .texto_curso .bck-ol-2 li,
+#actividad .popover-content .bck-ol-2 li,
+#actividad .content .workspace ul li .bck-ol-2 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    margin-left: 0px;
+}
+
+#actividad .content .cke_contents .bck-ol-2 li:before,
+#actividad .content .texto_curso ol.bck-ol-2 li:before,
+#actividad .popover-content ol.bck-ol-2 li:before,
+#actividad .content .workspace ul li ol.bck-ol-2 li:before {
+    content: counter(bck-li-counter, upper-alpha)" ";
+    position: absolute;
+    text-align: center;
+    color: #333;
+    line-height: normal;
+    margin-left: -20px;
+    line-height: unset;
+    font-weight: bold;
+    margin-top: -1px;
+}
+
+	/*LISTA Numero*/
+#actividad .content .cke_contents .bck-ol-3,
+#actividad .content .texto_curso .bck-ol-3,
+#actividad .content .workspace ul li .bck-ol-3 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+    margin-left: 20px;
+}
+
+#actividad .content .cke_contents .bck-ol-3 li,
+#actividad .content .cke_contents .bck-ol-3 li,
+#actividad .content .texto_curso .bck-ol-3 li,
+#actividad .popover-content .bck-ol-3 li,
+#actividad .content .workspace ul li .bck-ol-3 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    margin-left: 0px;
+}
+
+#actividad .content .cke_contents .bck-ol-3 li:before,
+#actividad .content .texto_curso ol.bck-ol-3 li:before,
+#actividad .popover-content ol.bck-ol-3 li:before,
+#actividad .content .workspace ul li ol.bck-ol-3 li:before {
+    content: counter(bck-li-counter);
+    position: absolute;
+    text-align: center;
+    color: #333;
+    line-height: normal;
+    margin-left: -20px;
+    line-height: unset;
+    font-weight: 600;
+    margin-top: -1px;
+}
+
+
 
 	/*LISTAS DESORDENADAS*/
 
