@@ -692,7 +692,8 @@ b, strong {
 	/*Tit Actividades*/
 	.bck-title4 {
     font-family: Gotham;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    letter-spacing: 0.5px;
     color: #ef511a;
     font-weight: bold;
 }
@@ -700,10 +701,10 @@ b, strong {
 	/*Tit Actividades 2*/
 	.bck-title5 {
     font-family: Gotham;
-    font-size: 3rem;
+    font-size: 3.5rem;
     padding-bottom: 5px;
-    font-weight: 700;
-    color: #5f95bb;
+    font-weight: 100;
+    color: #6c9ec1;
     border-bottom: 12px solid #fff;
 }
 
@@ -974,6 +975,70 @@ b, strong {
     left: 3% ! important;
     background-color: #CCCCCC;
 }
+
+/*pop-up*/
+
+.info-template .info-icon {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    -webkit-box-shadow: 0 0 2px #555;
+    -moz-box-shadow: 0 0 2px #555;
+    box-shadow: 0 0 2px #555;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #fff;
+    color: #019ba4;
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.info-template.shown {
+    background: #fff;
+    background: -moz-linear-gradient(135deg,#029ca5 0,#14a3ab 100%);
+    background: -webkit-linear-gradient(135deg,#029ca5 0,#14a3ab 100%);
+    background: -webkit-linear-gradient(135deg,#029ca5 0,#14a3ab 100%);
+    background: -moz-linear-gradient(135deg,#029ca5 0,#14a3ab 100%);
+    background: -o-linear-gradient(135deg,#029ca5 0,#14a3ab 100%);
+    background: linear-gradient(135deg,#029ca5 0,#14a3ab 100%);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.info-popover .popover-title:before, .popover-template .popover-title:before {
+    content: '\f040';
+    position: absolute;
+    top: 7px;
+    left: 13px;
+    width: 22px;
+    height: 22px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #029ca5;
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.info-popover .popover-title, .popover-template .popover-title {
+	color: #029ca5;
+}
+
 
 /*Querys*/
 
