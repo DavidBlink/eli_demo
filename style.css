@@ -9,6 +9,12 @@
       src: url(fonts/DanteMT.otf);
     }
 
+    @font-face {
+      font-family: Gotham;
+      src: url(fonts/Gotham Condensed Medium.otf);
+    }
+
+
 
 
 
@@ -523,6 +529,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
 }
 
 #indice .unit-content .header .title {
+    font-family: Gotham;
     color: #009ba4;
     text-transform: none;
     font-weight: 800;
@@ -684,6 +691,7 @@ b, strong {
 
 	/*Tit Actividades*/
 	.bck-title4 {
+		font-family: Gotham;
 		font-size: 2.5rem;
 		color: orange;
 		font-weight: bold;
@@ -694,7 +702,8 @@ b, strong {
 
 	/*Tit Actividades 2*/
 	.bck-title5 {
-		
+		font-family: Gotham;
+
 	}
 
 
