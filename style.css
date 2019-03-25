@@ -11,7 +11,7 @@
 
     @font-face {
       font-family: Gotham;
-      src: url(fonts/Gotham Condensed Medium.otf);
+      src: url(fonts/GothamCondensedMedium.otf);
     }
 
 
@@ -691,20 +691,21 @@ b, strong {
 
 	/*Tit Actividades*/
 	.bck-title4 {
-		font-family: Gotham;
-		font-size: 2.5rem;
-		color: #cd6621;
-		font-weight: bold;
-	}
+    font-family: Gotham;
+    font-size: 2.5rem;
+    color: #ef511a;
+    font-weight: bold;
+}
 
 	/*Tit Actividades 2*/
 	.bck-title5 {
-		font-family: Gotham;
-		font-size: 3rem;
-		font-weight: 700;
-		color: #a4b4bf;
-		border-bottom: 3px solid #fff;
-	}
+    font-family: Gotham;
+    font-size: 3rem;
+    padding-bottom: 5px;
+    font-weight: 700;
+    color: #5f95bb;
+    border-bottom: 12px solid #fff;
+}
 
 
 
