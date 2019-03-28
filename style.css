@@ -847,6 +847,42 @@ b, strong {
     margin-top: -2px;
 }
 
+	/*LISTA Letra-minus*/
+#actividad .content .cke_contents .bck-ol-4,
+#actividad .content .texto_curso .bck-ol-4,
+#actividad .content .workspace ul li .bck-ol-4 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+    margin-left: 20px;
+}
+
+#actividad .content .cke_contents .bck-ol-4 li,
+#actividad .content .cke_contents .bck-ol-4 li,
+#actividad .content .texto_curso .bck-ol-4 li,
+#actividad .popover-content .bck-ol-4 li,
+#actividad .content .workspace ul li .bck-ol-4 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    margin-left: 0px;
+}
+
+#actividad .content .cke_contents .bck-ol-4 li:before,
+#actividad .content .texto_curso ol.bck-ol-4 li:before,
+#actividad .popover-content ol.bck-ol-4 li:before,
+#actividad .content .workspace ul li ol.bck-ol-4 li:before {
+    content: counter(bck-li-counter, lower-alpha)" ";
+    font-size: 2.5rem;
+    position: absolute;
+    text-align: center;
+    color: #0d5da2;
+    margin-left: -25px;
+    line-height: normal;
+    font-weight: bold;
+    margin-top: -2px;
+}
+
 	/*LISTA Numero*/
 #actividad .content .cke_contents .bck-ol-3,
 #actividad .content .texto_curso .bck-ol-3,
