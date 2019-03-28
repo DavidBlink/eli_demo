@@ -34,6 +34,7 @@
 				{ name: 'Lista NumeroNaranja', element: 'ol', attributes: { 'class': 'bck-ol-1' } },
 				{ name: 'Lista Letra', element: 'ol', attributes: { 'class': 'bck-ol-2' } },
 				{ name: 'Lista Numero', element: 'ol', attributes: { 'class': 'bck-ol-3' } },
+				{ name: 'Lista Letra-minus', element: 'ol', attributes: { 'class': 'bck-ol-4' } },
 				
 
 				{ name: 'Tabla centrada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
