@@ -10,6 +10,11 @@
     }
 
     @font-face {
+      font-family: DanteMT-italic;
+      src: url(fonts/DanteMTStd-Italic.otf);
+    }
+
+    @font-face {
       font-family: Gotham;
       src: url(fonts/GothamCondensedMedium.otf);
     }
@@ -80,7 +85,7 @@
 	}
 
 	.content_type_clase_eli_demo #actividad .content .header .title h3 {
-    font-family: dantemt;
+    font-family: DanteMT-italic;
     font-size: 4.0rem;
     font-weight: 500;
     color: #e65a53;
