@@ -574,6 +574,12 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
 	border-radius: 0 0 120px 0;
 }
 
+#actividad .workspace label {
+	font-size: 18px;
+}
+
+
+
 /*memory*/
 
 .workspace.memory .front {
