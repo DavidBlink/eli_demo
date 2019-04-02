@@ -1153,9 +1153,11 @@ b, strong {
     padding: 5px;
     border: 4px solid #ef511a;
     text-align: center;
-    margin: 0px;
 	}
 
+	.bck-box.bck-box-4 p {
+	margin-bottom: 0px;
+	}
 
 
 	#iframe_div.scorm {
