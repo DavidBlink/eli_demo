@@ -783,7 +783,9 @@ b, strong {
     	padding: 3px;
 	}
 
-
+	#actividad .workspace.matching .box li:before {
+    margin-top: -6px;
+	}
 
 	/*LISTA NumeroNaranja*/
 	#actividad .content .cke_contents .bck-ol-1,
@@ -823,7 +825,6 @@ b, strong {
     text-align: center;
     font-size: 3.5rem;
     font-weight: bold;
-    top: -5px;
 }
 
 
