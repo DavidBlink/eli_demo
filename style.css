@@ -389,7 +389,6 @@
     text-indent: 0px;
     line-height: 35px;
     font-size: 20px;
-    font-size: 2.0rem;
     font-weight: bold;
     cursor: pointer;
     background: transparent;
@@ -579,7 +578,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
 }
 
 #actividad .workspace label {
-	font-size: 18px;
+	font-size: 20px;
 }
 
 
