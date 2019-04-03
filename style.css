@@ -771,16 +771,17 @@ b, strong {
 	.content ol li:before,
 	.cke_contents ol li:before {
 		content: counter(bck-li-counter)'';
-		position: absolute;
-		margin-left: auto;
-		font-weight: bold;
-		font-size: 2.0rem;
-		margin-top: 2px;
+    	position: absolute;
+    	margin-left: -15px;
+    	font-weight: bold;
+   		font-size: 2.0rem;
+    	margin-top: -3px;
 	}
 
 	#actividad .workspace.matching .box li {
 		padding-bottom: 10px;
-    	margin-top: 6%;
+    	margin-top: 8%;
+    	padding: 3px;
 	}
 
 
@@ -860,7 +861,7 @@ b, strong {
     margin-left: -25px;
     line-height: normal;
     font-weight: bold;
-    margin-top: -2px;
+    margin-top: -7px;
 }
 
 	/*LISTA Letra-minus*/
