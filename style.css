@@ -954,12 +954,13 @@ b, strong {
 	.texto_curso ul li:before,
 	.workspace ul li ul li:before,
 	.cke_contents ul li:before {
-		background-color: #f9bfad;
-		height: 12px;
-		width: 12px;
-		margin-top: 5px;
-		margin-left: -18px;
-	}
+    background-color: #231F20;
+    height: 1.5px;
+    width: 8px;
+    margin-top: 15px;
+    border-radius: 0px;
+    margin-left: -18px;
+}
 
 	.content figure:first-child:last-child,
 	.content .js--row figure,
