@@ -50,8 +50,6 @@
 		-webkit-transform-style: flat;
 	}
 
-
-
 	#actividad .carousel-inner .item-container {
 		background-image: none;
 		margin: 20px auto 30px;
@@ -101,6 +99,19 @@
 	.content_type_clase_eli_demo #actividad .texto_curso,
 	.content_type_clase_eli_demo #actividad .slide_content_type_1 .pregunta .texto_curso {
 		font-size: 2rem;
+	}
+
+	.content_type_clase_eli_demo .slide_main input {
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 	}
 
 	.texto_curso p:last-of-type {
@@ -705,6 +716,9 @@ b, strong {
     letter-spacing: 0.5px;
     color: #F1592A;
     font-weight: bold;
+    border-bottom: 13px double #F1592A;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 	/*Tit Actividades 2*/
@@ -1563,5 +1577,4 @@ div.calculo table.marco * {
 
 .content_type_clase_eli_demo .slide_main input {
     border: 1px solid #ccc !important;
-    margin-bottom: 4px;
 }
