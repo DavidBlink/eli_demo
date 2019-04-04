@@ -19,11 +19,7 @@
       src: url(fonts/GothamCondensedMedium.otf);
     }
 
-    body {
-    	font-size: 20px;
-    }
-
-
+   
 	.body_clase .content-wrapper {
 		padding-top: 100px;
 		font-family: 'Raleway', Georgia, serif;
