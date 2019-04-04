@@ -19,6 +19,10 @@
       src: url(fonts/GothamCondensedMedium.otf);
     }
 
+    body {
+    	font-size: 20px;
+    }
+
 
 	.body_clase .content-wrapper {
 		padding-top: 100px;
@@ -170,7 +174,7 @@
     outline-style: none;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(239, 81, 26, 0.2);
 	}
-	
+
 	.content_type_clase_eli_demo .slide_main input[disabled],
 	.content_type_clase_eli_demo .slide_main input[readonly],
 	fieldset[disabled] .content_type_clase_eli_demo .slide_main input {
