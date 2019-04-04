@@ -575,6 +575,11 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
 }
 
 
+
+	.btn {
+		font-size: 16px;
+	}
+
 .content_type_clase_sm_activities .btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
     margin-top: 0px;
     background-color: #009ba4;
@@ -813,6 +818,20 @@ b, strong {
     	margin-top: 8%;
     	padding: 3px;
 	}
+
+	#actividad .workspace.matching .opcion {
+    overflow: hidden;
+    min-height: 2.5em;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #f1592aa3;
+    margin: 2px 0;
+    padding: 5px;
+    width: 100%;
+    float: left;
+	}
+
 
 	#actividad .workspace.matching .box li:before {
     margin-top: -6px;
