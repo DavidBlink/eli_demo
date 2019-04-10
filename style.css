@@ -1611,6 +1611,20 @@ a#boton_borrador {
     text-align: left;
 }
 
+#actividad .content .cke_contents .bck-ol-3 li,
+#actividad .content .cke_contents .bck-ol-3 li,
+#actividad .content .texto_curso .bck-ol-3 li,
+#actividad .popover-content .bck-ol-3 li,
+#actividad .content .workspace ul li .bck-ol-3 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    margin-left: 0px;
+    margin-left: 20px;
+    font-size: 1.8rem;
+}
+
 #actividad .content .cke_contents .bck-ol-4 li,
 #actividad .content .cke_contents .bck-ol-4 li,
 #actividad .content .texto_curso .bck-ol-4 li,
