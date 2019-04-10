@@ -1560,6 +1560,88 @@ a#boton_borrador {
 		float: none;
 		padding-bottom: 20px;
 	}
+
+#actividad .carousel-inner .item-container {
+    padding: 40px 10px 90px;
+}	
+
+.body_curso #indice .unit-content .header .title {
+    font-size: 20px;
+    height: auto;
+    line-height: 40px;
+    margin: 0 0 0 20px;
+    position: absolute;
+    z-index: 2;
+}
+
+#indice .unit-content .header .title {
+    font-family: Gotham;
+    color: #ffffff;
+    text-transform: none;
+    font-weight: 500;
+    font-size: 30px;
+    float: left;
+    height: 60px;
+    line-height: 23px;
+    margin: 15px 140px 20px 17px;
+    z-index: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 1px;
+}
+
+.content_type_clase_eli_demo #actividad .texto_curso, .content_type_clase_eli_demo #actividad .slide_content_type_1 .pregunta .texto_curso {
+    font-size: 1.8rem;
+}
+
+.body_clase #actividad .carousel-inner .item-container {
+    margin-top: 45px;
+}
+
+#actividad .content .cke_contents .bck-ol-2 li, #actividad .content .cke_contents .bck-ol-2 li, #actividad .content .texto_curso .bck-ol-2 li, #actividad .popover-content .bck-ol-2 li, #actividad .content .workspace ul li .bck-ol-2 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    margin-left: 5px;
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+#actividad .content .cke_contents .bck-ol-4 li,
+#actividad .content .cke_contents .bck-ol-4 li,
+#actividad .content .texto_curso .bck-ol-4 li,
+#actividad .popover-content .bck-ol-4 li,
+#actividad .content .workspace ul li .bck-ol-4 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    margin-left: 5px;
+    font-size: 1.8rem;
+}
+
+#actividad .workspace.matching .box li {
+    padding-bottom: 0px;
+    margin-top: 1%;
+    padding: 2px;
+}
+
+#actividad .workspace.matching .opcion {
+    overflow: scroll;
+    min-height: 2.5em;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #f1592aa3;
+    margin: 2px 0;
+    padding: 5px;
+    width: 100%;
+    float: left;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -1573,7 +1655,7 @@ a#boton_borrador {
     }
 
     #actividad .carousel-inner .item-container {
-		padding: 40px 20px 90px;
+		padding: 40px 10px 90px;
 	}
 	.content_type_clase_eli_demo .publisher-navbar .navbar-content {
 		padding-left: 20px;
