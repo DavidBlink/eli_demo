@@ -1565,6 +1565,10 @@ a#boton_borrador {
     padding: 40px 10px 90px;
 }	
 
+#actividad .workspace label {
+    font-size: 19px;
+}
+
 .body_curso #indice .unit-content .header .title {
     font-size: 20px;
     height: auto;
