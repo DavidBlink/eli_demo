@@ -1594,7 +1594,7 @@ a#boton_borrador {
 }
 
 .content_type_clase_eli_demo #actividad .texto_curso, .content_type_clase_eli_demo #actividad .slide_content_type_1 .pregunta .texto_curso {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
 }
 
 .body_clase #actividad .carousel-inner .item-container {
@@ -1607,8 +1607,16 @@ a#boton_borrador {
     position: relative;
     z-index: 0;
     margin-left: 5px;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     text-align: left;
+}
+
+#actividad .content .cke_contents .bck-ol-3,
+#actividad .content .texto_curso .bck-ol-3,
+#actividad .content .workspace ul li .bck-ol-3 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+    margin-left: 5px;
 }
 
 #actividad .content .cke_contents .bck-ol-3 li,
@@ -1622,7 +1630,8 @@ a#boton_borrador {
     z-index: 0;
     margin-left: 0px;
     margin-left: 20px;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
+    text-align: left;
 }
 
 #actividad .content .cke_contents .bck-ol-4 li,
@@ -1635,7 +1644,8 @@ a#boton_borrador {
     position: relative;
     z-index: 0;
     margin-left: 5px;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
+    text-align: left;
 }
 
 #actividad .workspace.matching .box li {
