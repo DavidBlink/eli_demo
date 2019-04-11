@@ -1518,6 +1518,8 @@ a#boton_borrador {
 }
 
 @media screen and (max-width: 767px) {
+
+
     #actividad .carousel-inner .class_slide {
         padding: 40px 20px 0px;
     }
@@ -1559,6 +1561,15 @@ a#boton_borrador {
 		width: 100%;
 		float: none;
 		padding-bottom: 20px;
+	}
+
+	#actividad .class_slide {
+		text-align: justify;
+	}
+	
+
+	.bck-title1, .bck-title2, .bck-title3, .bck-title4, .bck-title5 {
+		text-align: left;
 	}
 
 #actividad .carousel-inner .item-container {
