@@ -799,6 +799,19 @@ b, strong {
     padding-left: 120px;
 }
 
+/*TitActivid-NewY*/
+	.bck-title9 {
+    color: #FFF;
+    font-family: sans-serif;
+    background-color: #949599;
+    font-weight: 700;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: -120px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 120px;
+}
 
 
 	/*ENFASIS*/
@@ -1059,6 +1072,45 @@ b, strong {
 }
 
 
+/*LISTA Circu-rojo*/
+#actividad .content .cke_contents .bck-ol-5,
+#actividad .content .texto_curso .bck-ol-5,
+#actividad .content .workspace ul li .bck-ol-5 {
+   list-style-type: none;
+   counter-reset: bck-li-counter;
+}
+
+#actividad .content .cke_contents .bck-ol-5 li,
+#actividad .content .cke_contents .bck-ol-5 li,
+#actividad .content .texto_curso .bck-ol-5 li,
+#actividad .popover-content .bck-ol-5 li,
+#actividad .content .workspace ul li .bck-ol-5 li {
+   counter-increment: bck-li-counter;
+   padding-left: 0px;
+   position: relative;
+   z-index: 0;
+   font-weight: 700;
+   margin-left: 0px;
+   margin-top: 10px;
+   font-size: 2rem;
+}
+
+
+#actividad .content .cke_contents .bck-ol-5 li:before,
+#actividad .content .texto_curso .bck-ol-5 li:before,
+#actividad .popover-content .bck-ol-5 li:before,
+#actividad .content .workspace ul li .bck-ol-5 li:before {
+   content: counter(bck-li-counter);
+   position: absolute;
+   color: #ffffff;
+   background: #D2232B;
+   margin-left: -20px;
+   margin-right: 0px;
+   border-radius: 100%;
+   text-align: center;
+   font-size: 2.2rem;
+   font-weight: normal;
+}
 
 	/*LISTAS DESORDENADAS*/
 
