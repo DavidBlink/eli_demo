@@ -1502,6 +1502,99 @@ transition: all 0.5s ease-in-out;
 	    font-size: 2rem;
 }
 
+
+/*----------------------------Secciones--------------------------------*/
+
+/*Colores por secciones del titulo y enfasis libro New York*/
+
+.colorrojo .bck-enfasis7 {
+    background-color: #D94B2C;
+}
+
+.colorrojo .bck-title8 {
+    background-color: #D94B2C;
+}
+
+.colorrojo2 .bck-enfasis7 {
+    background-color: #fff;
+    color: #D94B2C;
+}
+
+.colorrojo2 .bck-title8 {
+    background-color: #D94B2C;
+}
+
+.colorrojo2 .bck-box.bck-box-10 {
+    background-color: #D94B2C;
+}
+
+.colorverde .bck-enfasis7 {
+    background-color: #25753A;
+}
+
+.colorverde .bck-title8 {
+    background-color: #25753A;
+}
+
+.coloramarillo .bck-enfasis7 {
+    background-color: #D5A639;
+}
+
+.coloramarillo .bck-title8 {
+    background-color: #D5A639;
+}
+
+.colormorado .bck-enfasis7 {
+    background-color: #632F7C;
+}
+
+.colormorado .bck-title8 {
+    background-color: #632F7C;
+}
+
+.colorturquesa2 .bck-enfasis7 {
+    background-color: #fff;
+    color: #18A79D;
+}
+
+.colorturquesa2 .bck-title8 {
+    background-color: #18A79D;
+}
+
+.colorturquesa2 .bck-box.bck-box-10 {
+    background-color: #18A79D;
+}
+
+.colorturquesa .bck-enfasis7 {
+    background-color: #18A79D;
+}
+
+.colorturquesa .bck-title8 {
+    background-color: #18A79D;
+}
+
+.colorverdeclaro .bck-enfasis7 {
+    background-color: #71BF44;
+}
+
+.colorverdeclaro .bck-title8 {
+    background-color: #71BF44;
+}
+
+.colorgris .bck-enfasis7 {
+    background-color: #818284;
+}
+
+.colorgris .bck-title8 {
+    background-color: #818284;
+}
+
+
+
+
+
+
+
 /*Querys*/
 
 @media screen and (max-width: 450px){
