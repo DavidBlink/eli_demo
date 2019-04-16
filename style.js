@@ -32,6 +32,7 @@
 				{ name: 'Color Rojo', element: 'span', attributes: { 'class': 'bck-enfasis5' }},
 				{ name: 'Color Naranja', element: 'span', attributes: { 'class': 'bck-enfasis4' }},
 				{ name: 'Font Monofonto', element: 'span', attributes: { 'class': 'bck-enfasis6' }},
+				{ name: 'CirculoTITULO', element: 'span', attributes: { 'class': 'bck-enfasis7' }},
 				
 				{ name: 'Lista Desordenada1', element: 'ul', attributes: { 'class': 'bck-ul-1'} },
 				{ name: 'Lista Desordenada2', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
