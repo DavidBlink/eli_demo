@@ -1480,7 +1480,7 @@ b, strong {
     margin-right: auto;
 	}
 
-/*Caja 12 - CajaPuntosNegro*/
+	/*Caja 12 - CajaPuntosNegro*/
 	.bck-box.bck-box-12 {
     	border: 6px dotted #231F20;
     padding: 15px 20px 5px 20px;
@@ -1489,7 +1489,7 @@ b, strong {
     margin-right: auto;
 	}
 
-/*Caja 13 - CajaPuntosblanco*/
+	/*Caja 13 - CajaPuntosblanco*/
 	.bck-box.bck-box-13 {
     	border: 6px dotted #FFF;
     padding: 15px 20px 5px 20px;
@@ -1524,6 +1524,8 @@ b, strong {
     margin-left: auto;
     margin-right: auto;
 	}
+
+
 
 
 
