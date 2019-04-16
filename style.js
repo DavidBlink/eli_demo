@@ -21,6 +21,7 @@
 				{ name: 'Tit Actividades', element: 'h4', attributes: { 'class': 'bck-title4'} },
 				{ name: 'Tit Actividades2', element: 'h4', attributes: { 'class': 'bck-title5'} },
 				{ name: 'Tit LovingLondon', element: 'h4', attributes: { 'class': 'bck-title6'} },
+				{ name: 'Tit-Blanco-LovingLondon', element: 'h4', attributes: { 'class': 'bck-title7'} },
 
 
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
