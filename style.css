@@ -29,6 +29,12 @@
       src: url(fonts/CandyScript.ttf);
     }
 
+    @font-face {
+      font-family: Monofonto;
+      src: url(fonts/MonofontoRegular.ttf);
+    }
+
+
 
 
 
