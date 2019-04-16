@@ -898,8 +898,9 @@ b, strong {
 	/*FondoAzul*/
 	.bck-enfasis8 {
     background-color: #0174BB;
-    padding: 2px;
+    padding: 4px 2px;
     color: #fff;
+    font-size: 2.2rem;
 	}
 
 
