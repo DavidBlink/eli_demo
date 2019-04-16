@@ -786,15 +786,18 @@ b, strong {
 
 	/*Tit-NewYork*/
 	.bck-title8 {
-	color: #FFF;
-	background-color: #333;
-	font-weight: 700;
-	border-radius: 0px 10px 10px 0px;
-	margin-left: -100px;
-	padding: 4px;
-	padding-left: 40px;
-	}
-
+    color: #FFF;
+    font-family: sans-serif;
+    background-color: #3B57A7;
+    font-weight: 700;
+    width: fit-content;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: -120px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 100px;
+}
 
 
 
