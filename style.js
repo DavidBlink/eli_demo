@@ -53,7 +53,9 @@
 				{ name: 'Celda encabezado', element: 'td', attributes: { 'class': 'bck-td' } },
 
 				{ name: 'CajaBordesColor', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-4' } },
-				{ name: 'CajaBordesPuntos', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-11' } },
+				{ name: 'CajaPuntosAzul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-11' } },
+				{ name: 'CajaPuntosNegro', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-12' } },
+				{ name: 'CajaPuntosBlanco', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-13' } },
 				{ name: 'CajaNaranja', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-5' } },
 				{ name: 'CajaAzul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-6' } },
 				{ name: 'CajaBlanca', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-7' } },
