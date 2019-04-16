@@ -54,6 +54,7 @@
 
 				{ name: 'CajaBordesColor', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-4' } },
 				{ name: 'CajaPuntosAzul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-11' } },
+				{ name: 'CajaPuntosRojo', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-14' } },
 				{ name: 'CajaPuntosNegro', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-12' } },
 				{ name: 'CajaPuntosBlanco', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-13' } },
 				{ name: 'CajaNaranja', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-5' } },
