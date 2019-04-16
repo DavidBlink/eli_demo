@@ -23,6 +23,7 @@
 				{ name: 'Tit LovingLondon', element: 'h4', attributes: { 'class': 'bck-title6'} },
 				{ name: 'Tit-Blanco-LovingLondon', element: 'h4', attributes: { 'class': 'bck-title7'} },
 				{ name: 'Tit-NewYork1', element: 'h4', attributes: { 'class': 'bck-title8'} },
+				{ name: 'TitActivid-NewY', element: 'h4', attributes: { 'class': 'bck-title9'} },
 
 
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
@@ -42,6 +43,7 @@
 				{ name: 'Lista Letra', element: 'ol', attributes: { 'class': 'bck-ol-2' } },
 				{ name: 'Lista Numero', element: 'ol', attributes: { 'class': 'bck-ol-3' } },
 				{ name: 'Lista Letra-minus', element: 'ol', attributes: { 'class': 'bck-ol-4' } },
+				{ name: 'Lista Circu-Rojo', element: 'ol', attributes: { 'class': 'bck-ol-5' } },
 				
 
 				{ name: 'Tabla centrada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
