@@ -52,6 +52,7 @@
 				{ name: 'CajaBlanca', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-7' } },
 				{ name: 'CajaNegra', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-8' } },
 				{ name: 'CajaRojaBorde', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-9' } },
+				{ name: 'CajaNEWyork', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-10' } },
 				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
 				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
 				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } }
