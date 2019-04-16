@@ -784,6 +784,17 @@ b, strong {
     text-decoration-color: #fff;
 	}
 
+	/*Tit-NewYork*/
+	.bck-title8 {
+	color: #FFF;
+	background-color: #333;
+	font-weight: 700;
+	border-radius: 0px 10px 10px 0px;
+	margin-left: -100px;
+	padding: 4px;
+	padding-left: 40px;
+	}
+
 
 
 
@@ -823,6 +834,13 @@ b, strong {
 		font-size: 2rem;
 		font-family: Monofonto;
 		letter-spacing: 1px;
+	}
+
+	/*Circulo Titulo New york*/
+	.bck-enfasis7 {
+		background-color: #333;
+		border-radius: 100%;
+		padding: 3px;
 	}
 
 
@@ -1332,6 +1350,25 @@ b, strong {
     -moz-box-shadow: 0 0 0 5px #FFF, 0 0 0 8px #D41F27, 0 0 0 0px #444, 0 0 0 0px #000;
     -webkit-box-shadow: 0 0 0 5px #FFF, 0 0 0 8px #D41F27, 0 0 0 0px #444, 0 0 0 0px #000;
 	}
+
+	/*Caja 10 - CajaNEWyork*/
+	.bck-box.bck-box-10 {
+    	background-color: #000;
+    	color: #fff;
+    	font-family: helvetica;
+    	font-weight: 700;
+    	width: 100%;
+    	height: auto;
+    	padding: 10px;
+
+	}
+
+
+	.bck-box.bck-box-10 .bck-content {
+    border: 0px;
+	}
+
+
 
 	#iframe_div.scorm {
     width: 95% ! important;
