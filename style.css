@@ -810,6 +810,23 @@ b, strong {
     padding-left: 120px;
 }
 
+/*Tit-rojo*/
+.bck-title10 {
+	font-size: 24px;
+    color: #EE1C25;
+    font-weight: bold;
+}
+
+/*Tit-blanco*/
+.bck-title11 {
+	font-size: 24px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+
+
 
 	/*ENFASIS*/
 
