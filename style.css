@@ -1329,24 +1329,15 @@ b, strong {
 
 	/*Caja 9 - CajaRojaBordes*/
 	.bck-box.bck-box-9 {
-   		margin-left: auto;
-    	padding: 15px 15px;
-    	margin-right: auto;
-   		color: #fff;
-    	background: #D41F27;  	
+    margin-left: auto;
+    padding: 15px 15px;
+    margin-right: auto;
+    color: #fff;
+    background: #D41F27;
+    box-shadow: 0 0 0 5px #FFF, 0 0 0 8px #D41F27, 0 0 0 0px #444, 0 0 0 0px #000;
+    -moz-box-shadow: 0 0 0 5px #FFF, 0 0 0 8px #D41F27, 0 0 0 0px #444, 0 0 0 0px #000;
+    -webkit-box-shadow: 0 0 0 5px #FFF, 0 0 0 8px #D41F27, 0 0 0 0px #444, 0 0 0 0px #000;
 	}
-
-	.bck-box-9 .bck-title {  
-		
-	}
-
-	.bck-box.bck-box-9 .bck-content {
-    
-	}
-
-
-
-
 
 	#iframe_div.scorm {
     width: 95% ! important;
