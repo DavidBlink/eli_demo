@@ -19,7 +19,19 @@
       src: url(fonts/GothamCondensedMedium.otf);
     }
 
-   
+   	@font-face {
+      font-family: Archer;
+      src: url(fonts/Archer-Medium.otf);
+    }
+
+    @font-face {
+      font-family: CandyScript;
+      src: url(fonts/CandyScript.ttf);
+    }
+
+
+
+
 	.body_clase .content-wrapper {
 		padding-top: 100px;
 		font-family: 'Raleway', Georgia, serif;
@@ -703,17 +715,17 @@ b, strong {
 
 	.bck-title1,
 	.bck-title-activity {
-		font-size: 2.0rem;
-		font-weight: 400;
-		clear: both;
-		padding: 10px 40px 10px 98px;
-		margin-bottom: 25px;
-		background: #5ebdb2;
-		color: #ffffff;
-		margin-left: -98px;
-		border-radius: 0 40px 40px 0;
-		display: inline-block;
-	}
+    font-size: 2.4rem;
+    font-weight: 400;
+    clear: both;
+    padding: 10px 40px 10px 115px;
+    margin-bottom: 25px;
+    background: #5ebdb2;
+    color: #ffffff;
+    margin-left: -120px;
+    border-radius: 0 40px 40px 0;
+    display: inline-block;
+}
 
 	.bck-title2 {
 		font-size: 2.0rem;
