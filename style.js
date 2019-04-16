@@ -23,7 +23,6 @@
 				{ name: 'Tit LovingLondon', element: 'h4', attributes: { 'class': 'bck-title6'} },
 				{ name: 'Tit-Blanco-LovingLondon', element: 'h4', attributes: { 'class': 'bck-title7'} },
 				{ name: 'Tit-NewYork1', element: 'h4', attributes: { 'class': 'bck-title8'} },
-				{ name: 'Tit-NewYork2', element: 'h4', attributes: { 'class': 'bck-title9'} },
 
 
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
