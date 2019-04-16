@@ -768,7 +768,13 @@ b, strong {
     border-bottom: 12px solid #fff;
 }
 
-
+/*Tit LovingLondon*/
+	.bck-title6 {
+    font-size: 26px;
+    font-family: Monofonto;
+    text-decoration: underline;
+    text-decoration-color: #cf041c;
+	}
 
 	/*ENFASIS*/
 
