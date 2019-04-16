@@ -1429,6 +1429,22 @@ b, strong {
     border: 0px;
 	}
 
+	/*Caja 11 - Cajabordespuntos*/
+	.bck-box.bck-box-11 {
+    	border: 6px dotted #1B69B2;
+    padding: 15px 20px 5px 20px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+
+	.bck-box.bck-box-11 .bck-content {
+    border: 0px;
+	}
+
+
+
 
 
 	#iframe_div.scorm {
