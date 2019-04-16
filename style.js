@@ -24,6 +24,9 @@
 				{ name: 'Tit-Blanco-LovingLondon', element: 'h4', attributes: { 'class': 'bck-title7'} },
 				{ name: 'Tit-NewYork1', element: 'h4', attributes: { 'class': 'bck-title8'} },
 				{ name: 'TitActivid-NewY', element: 'h4', attributes: { 'class': 'bck-title9'} },
+				{ name: 'Tit-Rojo', element: 'h4', attributes: { 'class': 'bck-title10'} },
+				{ name: 'Tit-Blanco', element: 'h4', attributes: { 'class': 'bck-title11'} },
+
 
 
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
@@ -50,6 +53,7 @@
 				{ name: 'Celda encabezado', element: 'td', attributes: { 'class': 'bck-td' } },
 
 				{ name: 'CajaBordesColor', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-4' } },
+				{ name: 'CajaBordesPuntos', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-11' } },
 				{ name: 'CajaNaranja', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-5' } },
 				{ name: 'CajaAzul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-6' } },
 				{ name: 'CajaBlanca', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-7' } },
