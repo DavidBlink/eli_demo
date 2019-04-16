@@ -1303,16 +1303,14 @@ b, strong {
 	/*Caja 7 - CajaBlanca*/
 	.bck-box.bck-box-7 {
     	background-color: #FFF;
-	}
-
-	.bck-box-7 .bck-title {  
-		
+    	margin-bottom: 0px;
 	}
 
 	.bck-box.bck-box-7 .bck-content {
     padding: 10px;
     border: 2px double #FFF;
 	}
+
 
 	/*Caja 8 - CajaNegra*/
 	.bck-box.bck-box-8 {
@@ -1321,10 +1319,6 @@ b, strong {
     	margin-right: auto;
    		color: #fff;
     	background: #000;  	
-	}
-
-	.bck-box.bck-box-8 .bck-content {
-    
 	}
 
 	/*Caja 9 - CajaRojaBordes*/
