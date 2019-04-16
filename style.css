@@ -905,9 +905,6 @@ b, strong {
 
 
 
-
-
-
 	/*TOOLTIP*/
 	.bck-tooltip, .bck-underline {
     text-decoration: inherit;
@@ -1501,9 +1498,27 @@ b, strong {
     margin-right: auto;
 	}
 
-/*Caja 14 - CajaPuntosRojo*/
-	.bck-box.bck-box-13 {
+	/*Caja 14 - CajaPuntosRojo*/
+	.bck-box.bck-box-14 {
     	border: 6px dotted #AF292F;
+    padding: 15px 20px 5px 20px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+	/*Caja 15 - CajaPuntosVerde*/
+	.bck-box.bck-box-15 {
+    	border: 6px dotted #8CC63F;
+    padding: 15px 20px 5px 20px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+	/*Caja 16 - CajaPuntosNaranja*/
+	.bck-box.bck-box-16 {
+    	border: 6px dotted #F7941D;
     padding: 15px 20px 5px 20px;
     background-color: #ffffff;
     margin-left: auto;
