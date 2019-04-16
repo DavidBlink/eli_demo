@@ -703,7 +703,6 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, body:not
 /*negrita*/
 b, strong {
     font-weight: bold;
-    color: black;
 }
 
 
@@ -793,7 +792,6 @@ b, strong {
 	.bck-enfasis,
 	strong {
 		font-weight: bold;
-   		color: black;
 	}
 
 	.content hr,
@@ -1315,6 +1313,38 @@ b, strong {
     padding: 10px;
     border: 2px double #FFF;
 	}
+
+	/*Caja 8 - CajaNegra*/
+	.bck-box.bck-box-8 {
+   		margin-left: auto;
+    	padding: 15px 15px;
+    	margin-right: auto;
+   		color: #fff;
+    	background: #000;  	
+	}
+
+	.bck-box.bck-box-8 .bck-content {
+    
+	}
+
+	/*Caja 9 - CajaRojaBordes*/
+	.bck-box.bck-box-9 {
+   		margin-left: auto;
+    	padding: 15px 15px;
+    	margin-right: auto;
+   		color: #fff;
+    	background: #D41F27;  	
+	}
+
+	.bck-box-9 .bck-title {  
+		
+	}
+
+	.bck-box.bck-box-9 .bck-content {
+    
+	}
+
+
 
 
 
