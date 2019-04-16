@@ -798,6 +798,17 @@ b, strong {
 		color: #F1592A;
 	}
 
+	.bck-enfasis5 {
+		color: #cf041c;
+	}
+
+	/*FONTS enfasis*/
+	.bck-enfasis6 {
+		font-size: 2rem;
+		font-family: Monofonto;
+		letter-spacing: 1px;
+	}
+
 
 	/*TOOLTIP*/
 	.bck-tooltip, .bck-underline {
