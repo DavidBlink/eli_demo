@@ -876,8 +876,10 @@ b, strong {
 
 	.content hr,
 	.cke_contents hr {
-		border: 0;
-		border-top: 2px dashed #f9bfad;
+		    border: 0;
+    border-top: 3px solid #231f20;
+    border-color: #231f20;
+    margin-top: -6px;
 	}
 
 
@@ -2137,7 +2139,10 @@ div.calculo table.marco * {
 }
 
 .content hr, .cke_contents hr {
-    border-top: 2px dashed #f9bfad !important;
+        border: 0;
+    border-top: 3px solid #231f20;
+    border-color: #231f20;
+    margin-top: -6px;
 }
 
 .content_type_clase_eli_demo .slide_main input {
