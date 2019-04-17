@@ -26,6 +26,8 @@
 				{ name: 'TitActivid-NewY', element: 'h4', attributes: { 'class': 'bck-title9'} },
 				{ name: 'Tit-Rojo', element: 'h4', attributes: { 'class': 'bck-title10'} },
 				{ name: 'Tit-Blanco', element: 'h4', attributes: { 'class': 'bck-title11'} },
+				{ name: 'Tit-Negro', element: 'h4', attributes: { 'class': 'bck-title12'} },
+				{ name: 'Tit-FestivalsArefun', element: 'h4', attributes: { 'class': 'bck-title13'} },
 
 
 
