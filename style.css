@@ -54,6 +54,11 @@
       src: url(fonts/Intro-Black-Inline.otf);
     }
 
+    @font-face {
+      font-family: StardosStencil;
+      src: url(fonts/StardosStencil-Regular.ttf);
+    }
+
 
 	.body_clase .content-wrapper {
 		padding-top: 100px;
@@ -845,6 +850,20 @@ b, strong {
     font-weight: bold;
 }
 
+/*Tit-negro*/
+.bck-title12 {
+	font-size: 24px;
+    color: #231F20;
+    font-weight: bold;
+}
+
+/*Tit-festivalsArefun*/
+.bck-title13 {
+	font-family: StardosStencil;
+	font-size: 24px;
+    color: #231F20;
+    font-weight: bold;
+}
 
 
 
