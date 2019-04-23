@@ -872,8 +872,6 @@ b, strong {
 }
 
 
-
-
 	/*ENFASIS*/
 
 	.bck-enfasis,
@@ -1553,9 +1551,6 @@ b, strong {
 	}
 
 
-
-
-
 	#iframe_div.scorm {
     width: 95% ! important;
     height: 95% ! important;
@@ -1803,6 +1798,12 @@ transition: all 0.5s ease-in-out;
     -webkit-border-radius: 13px;
     -moz-border-radius: 13px;
     border-radius: 13px;
+}
+
+#actividad .workspace.chooseblanks select {
+    border: 0;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 3px;
 }
 
 .slide.crosswords-puzzle .enunciados {
