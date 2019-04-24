@@ -39,6 +39,7 @@
 				{ name: 'Color Rojo', element: 'span', attributes: { 'class': 'bck-enfasis5' }},
 				{ name: 'Color Naranja', element: 'span', attributes: { 'class': 'bck-enfasis4' }},
 				{ name: 'Font Monofonto', element: 'span', attributes: { 'class': 'bck-enfasis6' }},
+				{ name: 'Font Gelato', element: 'span', attributes: { 'class': 'bck-enfasis9' }},
 				{ name: 'CirculoTITULO', element: 'span', attributes: { 'class': 'bck-enfasis7' }},
 				{ name: 'FondoAzul', element: 'span', attributes: { 'class': 'bck-enfasis8' }},
 				
