@@ -35,6 +35,11 @@
     }
 
     @font-face {
+      font-family: Gelato;
+      src: url(fonts/GelatoScript.otf);
+    }
+
+    @font-face {
       font-family: Knockout70;
       src: url(fonts/Knockout-HTF70-FullWelterwt.otf);
     }
