@@ -917,6 +917,12 @@ b, strong {
 		letter-spacing: 1px;
 	}
 
+	.bck-enfasis9 {
+		font-size: 2rem;
+		font-family: Gelato;
+		letter-spacing: 1px;
+	}
+
 	/*Circulo Titulo New york*/
 	.bck-enfasis7 {
     background-color: #3B57A7;
