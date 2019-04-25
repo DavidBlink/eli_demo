@@ -568,6 +568,7 @@ body:not(.isTablet) #indice .units ul li:hover, #indice .units ul li:focus, #ind
     padding-top: 6px;
     margin-bottom: 1px;
     border-radius: 0px;
+    cursor: pointer;
 }
 
 #indice .units ul li.active:not(.disabled), body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
