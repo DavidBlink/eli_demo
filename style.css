@@ -1166,10 +1166,12 @@ b, strong {
     content: counter(bck-li-counter);
     position: absolute;
     font-size: 2.5rem;
-    text-align: center;
+    width: 30px;
+    height: auto;
+    text-align: right;
     color: #0d5da2;
     line-height: normal;
-    margin-left: -25px;
+    margin-left: -38px;
     line-height: unset;
     font-weight: bold;
     margin-top: -1px;
@@ -1204,19 +1206,19 @@ b, strong {
 #actividad .content .texto_curso .bck-ol-5 li:before,
 #actividad .popover-content .bck-ol-5 li:before,
 #actividad .content .workspace ul li .bck-ol-5 li:before {
-   content: counter(bck-li-counter);
-   width: 28px;
-   height: auto;
-   position: absolute;
-   color: #ffffff;
-   background: #D2232B;
-   margin-left: -20px;
-   margin-right: 0px;
-   border-radius: 100%;
-   text-align: center;
-   font-family: sans-serif;
-   font-size: 2.5rem;
-   font-weight: bold;
+    content: counter(bck-li-counter);
+    width: 28px;
+    height: auto;
+    position: absolute;
+    color: #ffffff;
+    background: #D2232B;
+    margin-left: -35px;
+    margin-right: 0px;
+    border-radius: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 	/*LISTAS DESORDENADAS*/
