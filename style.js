@@ -28,6 +28,7 @@
 				{ name: 'Tit-Blanco', element: 'h4', attributes: { 'class': 'bck-title11'} },
 				{ name: 'Tit-Negro', element: 'h4', attributes: { 'class': 'bck-title12'} },
 				{ name: 'Tit-FestivalsArefun', element: 'h4', attributes: { 'class': 'bck-title13'} },
+				{ name: 'Tit-Festi-Subrayado', element: 'h4', attributes: { 'class': 'bck-title15'} },
 				{ name: 'Tit-Festiv-Blanco', element: 'h4', attributes: { 'class': 'bck-title14'} },
 
 
