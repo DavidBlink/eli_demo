@@ -931,6 +931,13 @@ b, strong {
 		letter-spacing: 1px;
 	}
 
+	.bck-enfasis10 {
+		font-family: arial,helvetica,sans-serif;
+    	letter-spacing: -0.5px;
+    	font-size: 1.8rem;
+    	font-weight: 600;
+	}
+
 	/*Circulo Titulo New york*/
 	.bck-enfasis7 {
     background-color: #3B57A7;
