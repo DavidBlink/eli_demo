@@ -941,8 +941,11 @@ b, strong {
 	/*Circulo Titulo New york*/
 	.bck-enfasis7 {
     background-color: #3B57A7;
+    width: 45px;
+    height: auto;
+    display: block;
     border-radius: 50%;
-    padding: 5px 10px 5px 11px;
+    padding: 0px;
     text-align: center;
 	}
 
@@ -1757,7 +1760,6 @@ transition: all 0.5s ease-in-out;
 .colorturquesa2 .bck-enfasis7 {
     background-color: #fff;
     color: #18A79D;
-    padding: 3px 10px 3px 11px;
 }
 
 .colorturquesa2 .bck-title8 {
