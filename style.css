@@ -2197,10 +2197,9 @@ div.calculo table.marco * {
 }
 
 .content hr, .cke_contents hr {
-        border: 0;
-    border-top: 3px solid #231f20;
-    border-color: #231f20;
-    margin-top: -6px;
+     border: 0;
+    border-top: 8px solid #1BBCB9;
+    border-color: #1BBCB9;
 }
 
 .content_type_clase_eli_demo .slide_main input {
