@@ -564,8 +564,8 @@ body:not(.isTablet) #indice .units ul li:hover, #indice .units ul li:focus, #ind
 }
 
 #indice .units ul li {
-    padding-bottom: 13px;
-    padding-top: 13px;
+    padding-bottom: 6px;
+    padding-top: 6px;
     margin-bottom: 1px;
     border-radius: 0px;
 }
@@ -573,6 +573,11 @@ body:not(.isTablet) #indice .units ul li:hover, #indice .units ul li:focus, #ind
 #indice .units ul li.active:not(.disabled), body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
     border-left: 10px solid #fff;
     background: #009ba4;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 a:hover, a:active, a:focus {
