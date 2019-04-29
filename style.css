@@ -2206,8 +2206,26 @@ transition: all 0.5s ease-in-out;
 	width: 200px;
 }
 
+.orkney .bck-title16 {
+	background: #E4CEBEd4;
+    color: #231F20;
+    -moz-transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+    padding: 10px 30px;
+}
 
-
+.orkney .bck-title16:before {
+	background-color: #E4CEBEd4;
+	-moz-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    width: 200px;
+}
 
 
 
