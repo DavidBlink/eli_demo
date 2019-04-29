@@ -2087,7 +2087,7 @@ transition: all 0.5s ease-in-out;
 
 .gaelic .bck-title16:before {
 	background-color: #1881C1d4;
-	width: 200px;
+	width: 185px;
 	-moz-transform: rotate(-3deg);
     -webkit-transform: rotate(-3deg);
     -o-transform: rotate(-3deg);
@@ -2095,7 +2095,26 @@ transition: all 0.5s ease-in-out;
     transform: rotate(-3deg);
 }
 
+.highlandgames .bck-title16 {
+	background: #C3CBE6d4;
+    color: #231F20;
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    padding: 10px 30px;
+}
 
+.highlandgames .bck-title16:before {
+	background-color: #C3CBE6d4;
+	-moz-transform: rotate(-3deg);
+    -webkit-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+    width: 345px;
+}
 
 
 
