@@ -1952,7 +1952,7 @@ transition: all 0.5s ease-in-out;
 /*Titulo Encabezado Slide - Scotland is magic - SECCIONES*/
 
 /*AboutScotland*/
-.content_type_clase_eli_demo .aboutscotland #actividad .aboutscotland .content .header .title h3 {
+.content_type_clase_eli_demo #actividad .aboutscotland .content .header .title h3 {
     font-family: Intro-Black-Inline;
     font-size: 4rem;
     line-height: 65px;
