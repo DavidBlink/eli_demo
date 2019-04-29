@@ -1665,6 +1665,34 @@ b, strong {
     	background-color: #D0EBE8;
 	}
 
+	/*Caja 20 - CajaJapon4*/
+	.bck-box.bck-box-20 {
+    	
+	}
+
+	.bck-box-20 .bck-title {  
+		font-size: 2.5rem;
+    	margin-bottom: -52px;
+    	padding: 10px 20px 0px 15px;
+    	border-radius: 0px 0px 10px;
+    	background: #fff;
+    	width: fit-content;
+    	height: auto;
+    	position: relative;
+    	color: #98276B;
+    	font-weight: 700;
+	}
+
+	.bck-box.bck-box-20 .bck-content {
+    	padding: 15px;
+    	padding-top: 45px;
+    	text-align: left;
+   		border-radius: 20px;
+    	background-color: #E2CBD6;
+	}
+
+
+
 
 
 
