@@ -2311,6 +2311,49 @@ transition: all 0.5s ease-in-out;
     width: 175px;
 }
 
+.thistle .bck-title16 {
+	background: #A13892d4;
+    color: #FFF;
+    -moz-transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+    padding: 10px 30px;
+}
+
+.thistle .bck-title16:before {
+	background-color: #A13892d4;
+	-moz-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    width: 200px;
+}
+
+.unicorn .bck-title16 {
+	background: #E4CDBCd4;
+    color: #231F20;
+    -moz-transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+    padding: 10px 30px;
+}
+
+.unicorn .bck-title16:before {
+	background-color: #E4CDBCd4;
+	-moz-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    width: 200px;
+}
+
+
 
 
 
