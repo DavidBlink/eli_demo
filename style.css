@@ -2435,7 +2435,7 @@ transition: all 0.5s ease-in-out;
     -ms-transform: rotate(-4deg);
     transform: rotate(-4deg);
     right: -10px;
-    width: 340px;
+    width: 346px;
     top: 31px;
     border-style: none dotted none dotted;
 }
@@ -2505,11 +2505,12 @@ a#boton_borrador {
 }
 
 .bck-title16 {
-	font-size: 2.7rem;
+	font-size: 2.6rem!important;
 	height: 40px;
 }
 .bck-title16:before {
 	padding: 23px;
+	max-width: 250px!important;
 }
 
 }
