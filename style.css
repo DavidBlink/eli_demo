@@ -909,7 +909,7 @@ b, strong {
     text-align: center;
     display: block;
     padding: 0px;
-    border: 2px;
+    border: 2px #fff;
     border-style: none dotted;
     margin: auto;
     z-index: 1000;
@@ -932,7 +932,7 @@ b, strong {
     z-index: -1;
     right: -40px;
     top: -20px;
-    border: 2px;
+    border: 2px #fff;
     border-style: none dotted none none;
 }
 
@@ -1996,12 +1996,12 @@ transition: all 0.5s ease-in-out;
 /*--------------------secciones Tit-Scotland-----------------------------*/
 
 .aboutscotland .bck-title16 {
-	background: #BFC9E2;
+	background: #bfc9e2d4;
     color: #2464AF;
 }
 
 .aboutscotland .bck-title16:before {
-	background-color: #BFC9E2;
+	background-color: #bfc9e2d4;
 }
 
 
