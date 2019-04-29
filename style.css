@@ -2010,6 +2010,7 @@ transition: all 0.5s ease-in-out;
 
 .bagpipes .bck-title16:before {
 	background-color: #BDA07Ed4;
+	width: 200px;
 }
 
 .castles .bck-title16 {
@@ -2019,6 +2020,26 @@ transition: all 0.5s ease-in-out;
 
 .castles .bck-title16:before {
 	background-color: #3B3C40d4;
+	width: 208px;
+}
+
+.dollythesheep .bck-title16 {
+	background: #47663Ed4;
+    color: #FFF;
+    -moz-transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+}
+
+.dollythesheep .bck-title16:before {
+	background-color: #47663Ed4;
+	-moz-transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
 }
 
 
