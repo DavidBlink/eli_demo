@@ -890,6 +890,51 @@ b, strong {
     color: #FFF;
 }
 
+/*Tit-Scotland*/
+.bck-title16 {
+	font-family: Intro-Black-Inline;
+    font-size: 4rem;
+    line-height: 65px;
+    text-align: center;
+    font-weight: 500;
+    width: 300px;
+    -moz-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    height: 55px;
+    background: #41515de0;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    padding: 0px;
+    border: 2px;
+    border-style: none dotted;
+    margin: auto;
+    z-index: 1000;
+    margin-top: 25px;
+}
+
+.bck-title16:before {
+	content: '';
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: auto;
+    padding: 30px;
+    background-color: #41515df0;
+    -moz-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    z-index: -1;
+    right: -40px;
+    top: -20px;
+    border: 2px;
+    border-style: none dotted none none;
+}
 
 	/*ENFASIS*/
 
@@ -1949,99 +1994,6 @@ transition: all 0.5s ease-in-out;
 }
 
 
-/*Titulo Encabezado Slide - Scotland is magic - SECCIONES*/
-
-/*AboutScotland*/
-.content_type_clase_eli_demo #actividad .aboutscotland .content .header .title h3 {
-    font-family: Intro-Black-Inline;
-    font-size: 4rem;
-    line-height: 65px;
-    text-align: center;
-    font-weight: 500;
-    width: 300px;
-    -moz-transform: rotate(3deg);
-    -webkit-transform: rotate(3deg);
-    -o-transform: rotate(3deg);
-    -ms-transform: rotate(3deg);
-    transform: rotate(3deg);
-    height: 55px;
-    background: #B9C4E2;
-    color: #346DB4;
-    text-align: center;
-    display: block;
-    padding: 0px;
-    border: 2px;
-    border-style: none dotted;
-    margin: auto;
-    z-index: 1000;
-    margin-top: 25px;
-}
-
-.content_type_clase_eli_demo #actividad .aboutscotland .content .header .title h3:before {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 300px;
-    height: auto;
-    padding: 30px;
-    background-color: #B9C4E2;
-    -moz-transform: rotate(-5deg);
-    -webkit-transform: rotate(-5deg);
-    -o-transform: rotate(-5deg);
-    -ms-transform: rotate(-5deg);
-    transform: rotate(-5deg);
-    z-index: -1;
-    right: -40px;
-    top: -20px;
-    border: 2px;
-    border-style: none dotted none none;
-}
-
-/*Bagpipes*/
-.content_type_clase_eli_demo #actividad .content .bagpipes .header .title h3 {
-    font-family: Intro-Black-Inline;
-    font-size: 4rem;
-    line-height: 65px;
-    text-align: center;
-    font-weight: 500;
-    width: 300px;
-    -moz-transform: rotate(3deg);
-    -webkit-transform: rotate(3deg);
-    -o-transform: rotate(3deg);
-    -ms-transform: rotate(3deg);
-    transform: rotate(3deg);
-    height: 55px;
-    background: #BC9F7D;
-    color: #ffffff;
-    text-align: center;
-    display: block;
-    padding: 0px;
-    border: 2px;
-    border-style: none dotted;
-    margin: auto;
-    z-index: 1000;
-    margin-top: 25px;
-}
-
-.content_type_clase_eli_demo #actividad .content .bagpipes .header .title h3:before {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 300px;
-    height: auto;
-    padding: 30px;
-    background-color: #BC9F7D;
-    -moz-transform: rotate(-5deg);
-    -webkit-transform: rotate(-5deg);
-    -o-transform: rotate(-5deg);
-    -ms-transform: rotate(-5deg);
-    transform: rotate(-5deg);
-    z-index: -1;
-    right: -40px;
-    top: -20px;
-    border: 2px;
-    border-style: none dotted none none;
-}
 
 
 
