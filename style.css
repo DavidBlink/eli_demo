@@ -2031,15 +2031,27 @@ transition: all 0.5s ease-in-out;
     -o-transform: rotate(-1deg);
     -ms-transform: rotate(-1deg);
     transform: rotate(-1deg);
+    padding: 10px 30px;
 }
 
 .dollythesheep .bck-title16:before {
 	background-color: #47663Ed4;
-	-moz-transform: rotate(-1deg);
-    -webkit-transform: rotate(-1deg);
-    -o-transform: rotate(-1deg);
-    -ms-transform: rotate(-1deg);
-    transform: rotate(-1deg);
+	-moz-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    width: 345px;
+}
+
+.edinburgh .bck-title16 {
+	background: #DECDC1d4;
+    color: #433725;
+}
+
+.edinburgh .bck-title16:before {
+	background-color: #DECDC1d4;
+	width: 200px;
 }
 
 
