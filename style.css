@@ -1993,8 +1993,16 @@ transition: all 0.5s ease-in-out;
     background-color: #818284;
 }
 
+/*--------------------secciones Tit-Scotland-----------------------------*/
 
+.aboutscotland .bck-title16 {
+	background: #BFC9E2;
+    color: #2464AF;
+}
 
+.aboutscotland .bck-title16:before {
+	background-color: #BFC9E2;
+}
 
 
 
