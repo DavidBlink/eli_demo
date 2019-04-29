@@ -893,7 +893,7 @@ b, strong {
 /*Tit-Scotland*/
 .bck-title16 {
 	font-family: Intro-Black-Inline;
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: center;
     font-weight: 500;
     width: fit-content;
@@ -2002,6 +2002,37 @@ transition: all 0.5s ease-in-out;
 .aboutscotland .bck-title16:before {
 	background-color: #bfc9e2d4;
 }
+
+.bagpipes .bck-title16 {
+	background: #BDA07Ed4;
+    color: #FFF;
+}
+
+.bagpipes .bck-title16:before {
+	background-color: #BDA07Ed4;
+}
+
+.castles .bck-title16 {
+	background: #3B3C40d4;
+    color: #FFF;
+}
+
+.castles .bck-title16:before {
+	background-color: #3B3C40d4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
