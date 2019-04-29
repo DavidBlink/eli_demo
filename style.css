@@ -2054,8 +2054,26 @@ transition: all 0.5s ease-in-out;
 	width: 200px;
 }
 
+.food .bck-title16 {
+	background: #F79520d4;
+    color: #FFF;
+    -moz-transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+    padding: 10px 30px;
+}
 
-
+.food .bck-title16:before {
+	background-color: #F79520d4;
+	-moz-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    width: 200px;
+}
 
 
 
