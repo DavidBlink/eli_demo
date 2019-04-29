@@ -2395,6 +2395,27 @@ transition: all 0.5s ease-in-out;
 	width: 365px;
 }
 
+.yearlyfestivals .bck-title16 {
+	background: #E23D45d4;
+    color: #FFF;
+    -moz-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    padding: 10px 30px;
+}
+
+.yearlyfestivals .bck-title16:before {
+	background-color: #E23D45d4;
+	-moz-transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+    -o-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+    width: 220px;
+}
+
 
 
 
