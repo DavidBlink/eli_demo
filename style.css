@@ -2137,6 +2137,15 @@ transition: all 0.5s ease-in-out;
     width: 360px;
 }
 
+.glasgow .bck-title16 {
+	background: #E5CFBEd4;
+    color: #231F20;
+}
+
+.glasgow .bck-title16:before {
+	background-color: #E5CFBEd4;
+	width: 250px;
+}
 
 
 
