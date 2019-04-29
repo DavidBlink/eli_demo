@@ -76,6 +76,7 @@
 				{ name: 'CajaJapon1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-17' } },
 				{ name: 'CajaJapon2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-18' } },
 				{ name: 'CajaJapon3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-19' } },
+				{ name: 'CajaJapon4', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-20' } },
 				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
 				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
 				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } }
