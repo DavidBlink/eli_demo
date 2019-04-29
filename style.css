@@ -1586,6 +1586,37 @@ b, strong {
     margin-right: auto;
 	}
 
+	/*Caja 17 - CajaJapon1*/
+	.bck-box.bck-box-17 {
+    	
+	}
+
+	.bck-box-17 .bck-title {  
+		font-size: 2.5rem;
+    	margin-bottom: -52px;
+    	padding: 10px 20px 0px 10px;
+    	border-radius: 0px 0px 10px;
+    	background: #fff;
+    	width: fit-content;
+    	height: auto;
+    	position: relative;
+	}
+
+	.bck-box.bck-box-17 .bck-content {
+    	padding: 10px;
+    	padding-top: 45px;
+    	text-align: left;
+   		border-radius: 20px;
+    	background-color: #FCDEE0;
+	}
+
+
+
+
+
+
+
+
 
 	#iframe_div.scorm {
     width: 95% ! important;
