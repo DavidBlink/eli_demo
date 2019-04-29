@@ -2108,12 +2108,33 @@ transition: all 0.5s ease-in-out;
 
 .highlandgames .bck-title16:before {
 	background-color: #C3CBE6d4;
-	-moz-transform: rotate(-3deg);
+	-moz-transform: rotate(-1deg);
     -webkit-transform: rotate(-1deg);
     -o-transform: rotate(-1deg);
     -ms-transform: rotate(-1deg);
     transform: rotate(-1deg);
     width: 345px;
+}
+
+.interestingplaces .bck-title16 {
+	background: #E5CEBDd4;
+    color: #E5CEBD;
+    -moz-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    padding: 10px 30px;
+}
+
+.interestingplaces .bck-title16:before {
+	background-color: #E5CEBDd4;
+	-moz-transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+    -o-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+    width: 360px;
 }
 
 
