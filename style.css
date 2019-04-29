@@ -1691,9 +1691,31 @@ b, strong {
     	background-color: #E2CBD6;
 	}
 
+	/*Caja 21 - CajaJapon5*/
+	.bck-box.bck-box-21 {
+    	
+	}
 
+	.bck-box-21 .bck-title {  
+		font-size: 2.5rem;
+    	margin-bottom: -52px;
+    	padding: 10px 20px 0px 15px;
+    	border-radius: 0px 0px 10px;
+    	background: #fff;
+    	width: fit-content;
+    	height: auto;
+    	position: relative;
+    	color: #005780;
+    	font-weight: 700;
+	}
 
-
+	.bck-box.bck-box-21 .bck-content {
+    	padding: 15px;
+    	padding-top: 45px;
+    	text-align: left;
+   		border-radius: 20px;
+    	background-color: #97BBD3;
+	}
 
 
 	#iframe_div.scorm {
