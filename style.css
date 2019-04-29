@@ -2202,7 +2202,9 @@ transition: all 0.5s ease-in-out;
     width: 200px;
 }
 
-
+.nessie .bck-title16:before {
+	width: 200px;
+}
 
 
 
