@@ -2434,6 +2434,8 @@ transition: all 0.5s ease-in-out;
     -o-transform: rotate(-4deg);
     -ms-transform: rotate(-4deg);
     transform: rotate(-4deg);
+    right: -10px;
+    width: 500px;
 }
 
 
@@ -2499,6 +2501,13 @@ a#boton_notes {
 a#boton_borrador {
     display: none;
 }
+
+.bck-title16 {
+	font-size: 2.7rem;
+	height: 40px;
+}
+
+
 }
 
 
