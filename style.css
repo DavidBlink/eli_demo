@@ -2384,6 +2384,16 @@ transition: all 0.5s ease-in-out;
     width: 260px;
 }
 
+.xsaltire .bck-title16 {
+	background: #FEEE04d4;
+    color: #231F20;
+    padding: 10px 30px;
+}
+
+.visitingmuseums .bck-title16:before {
+	background-color: #FEEE04d4;
+}
+
 
 
 
