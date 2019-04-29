@@ -2170,13 +2170,15 @@ transition: all 0.5s ease-in-out;
 
 .landscapeandnature .bck-title16 {
 	background: #8EC640d4;
-    color: #231F20;
+    color: #fff;
 }
 
 .landscapeandnature .bck-title16:before {
 	background-color: #8EC640d4;
-	width: 350px;
+	width: 400px;
 	border-style: none none none dotted;
+	right: 60px;
+    top: -15px;
 }
 
 
