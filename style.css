@@ -1952,7 +1952,7 @@ transition: all 0.5s ease-in-out;
 /*Titulo Encabezado Slide - Scotland is magic - SECCIONES*/
 
 /*AboutScotland*/
-.aboutscotland .content_type_clase_eli_demo #actividad .content .header .title h3 {
+.content_type_clase_eli_demo .aboutscotland #actividad .aboutscotland .content .header .title h3 {
     font-family: Intro-Black-Inline;
     font-size: 4rem;
     line-height: 65px;
@@ -1977,7 +1977,7 @@ transition: all 0.5s ease-in-out;
     margin-top: 25px;
 }
 
-.aboutscotland .content_type_clase_eli_demo #actividad .content .header .title h3:before {
+.content_type_clase_eli_demo #actividad .aboutscotland .content .header .title h3:before {
     content: '';
     position: absolute;
     display: block;
@@ -1998,7 +1998,7 @@ transition: all 0.5s ease-in-out;
 }
 
 /*Bagpipes*/
-.bagpipes .content_type_clase_eli_demo #actividad .content .header .title h3 {
+.content_type_clase_eli_demo #actividad .content .bagpipes .header .title h3 {
     font-family: Intro-Black-Inline;
     font-size: 4rem;
     line-height: 65px;
@@ -2023,7 +2023,7 @@ transition: all 0.5s ease-in-out;
     margin-top: 25px;
 }
 
-.bagpipes .content_type_clase_eli_demo #actividad .content .header .title h3:before {
+.content_type_clase_eli_demo #actividad .content .bagpipes .header .title h3:before {
     content: '';
     position: absolute;
     display: block;
