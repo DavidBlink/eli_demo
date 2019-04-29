@@ -894,10 +894,9 @@ b, strong {
 .bck-title16 {
 	font-family: Intro-Black-Inline;
     font-size: 4rem;
-    line-height: 65px;
     text-align: center;
     font-weight: 500;
-    width: 300px;
+    width: fit-content;
     -moz-transform: rotate(3deg);
     -webkit-transform: rotate(3deg);
     -o-transform: rotate(3deg);
@@ -908,7 +907,7 @@ b, strong {
     color: #ffffff;
     text-align: center;
     display: block;
-    padding: 0px;
+    padding: 10px 20px;
     border: 2px #fff;
     border-style: none dotted;
     margin: auto;
