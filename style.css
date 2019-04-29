@@ -2290,6 +2290,27 @@ transition: all 0.5s ease-in-out;
     width: 300px;
 }
 
+.sport .bck-title16 {
+	background: #E5CDBBd4;
+    color: #231F20;
+    -moz-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    padding: 10px 30px;
+}
+
+.sport .bck-title16:before {
+	background-color: #E5CDBBd4;
+	-moz-transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+    -o-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+    width: 220px;
+}
+
 
 
 
