@@ -2356,22 +2356,32 @@ transition: all 0.5s ease-in-out;
 .visitingmuseums .bck-title16 {
 	background: #76634Ad4;
     color: #FFF;
-    -moz-transform: rotate(-3deg);
-    -webkit-transform: rotate(-3deg);
-    -o-transform: rotate(-3deg);
-    -ms-transform: rotate(-3deg);
-    transform: rotate(-3deg);
     padding: 10px 30px;
 }
 
 .visitingmuseums .bck-title16:before {
 	background-color: #76634Ad4;
-	-moz-transform: rotate(-4deg);
-    -webkit-transform: rotate(-4deg);
-    -o-transform: rotate(-4deg);
-    -ms-transform: rotate(-4deg);
-    transform: rotate(-4deg);
-    width: 400px;
+}
+
+.writersandpoets .bck-title16 {
+	background: #262223d4;
+    color: #FFF;
+    -moz-transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+    padding: 10px 30px;
+}
+
+.writersandpoets .bck-title16:before {
+	background-color: #262223d4;
+	-moz-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    width: 200px;
 }
 
 
