@@ -1766,12 +1766,13 @@ b, strong {
 	/*Caja 22 - CajaBordesScotland*/
 	.bck-box.bck-box-22 {
     	background-color: #E6E6E7;
-    	border-image-width: 10px;
-  		border-image-source: url(/images/borde-caja-scotland-gris.png);
- 	 	border-image-slice: 54 85;
- 	 	border-image-outset: 6px;
- 	 	border-image-repeat: repeat repeat;
-	}
+  		border-style: solid;
+		border-width: 0px 7px 0px 5px;
+		-moz-border-image: url(/images/borde-caja-scotland-gris2.png) 5 8 4 5 repeat repeat;
+		-webkit-border-image: url(/images/borde-caja-scotland-gris2.png) 5 8 4 5 repeat repeat;
+		-o-border-image: url(/images/borde-caja-scotland-gris2.png) 5 8 4 5 repeat repeat;
+		border-image: url(/images/borde-caja-scotland-gris2.png) 5 8 4 5 repeat repeat;
+		}	
 
 	.bck-box-22 .bck-title {  
 		
