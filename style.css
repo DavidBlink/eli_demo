@@ -1762,6 +1762,29 @@ b, strong {
 	}
 
 
+
+	/*Caja 22 - CajaBordesScotland*/
+	.bck-box.bck-box-22 {
+    	background-color: #E6E6E7;
+    	border-image-width: 10px;
+  		border-image-source: url(/images/borde-caja-scotland-gris.png);
+ 	 	border-image-slice: 54 85;
+ 	 	border-image-outset: 6px;
+ 	 	border-image-repeat: repeat repeat;
+	}
+
+	.bck-box-22 .bck-title {  
+		
+	}
+
+	.bck-box.bck-box-22 .bck-content {
+    	padding: 15px;
+    	text-align: left;
+    	background-color: #E6E6E7;
+	}
+
+
+
 	#iframe_div.scorm {
     width: 95% ! important;
     height: 95% ! important;
