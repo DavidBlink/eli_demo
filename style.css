@@ -1033,11 +1033,14 @@ b, strong {
 	.content ol li:before,
 	.cke_contents ol li:before {
 		content: counter(bck-li-counter)'';
-    	position: absolute;
-    	margin-left: -20px;
-    	font-weight: bold;
-    	font-size: 2.0rem;
-    	margin-top: -1px;
+    position: absolute;
+    margin-left: -25px;
+    font-weight: bold;
+    font-size: 2.0rem;
+    margin-top: -1px;
+    width: 18px;
+    text-align: right;
+    	
 	}
 
 	#actividad .workspace.matching .box li {
