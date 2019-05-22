@@ -1009,7 +1009,7 @@ b, strong {
 
 
 	/*TOOLTIP*/
-	.bck-tooltip, .bck-underline {
+	.bck-tooltip {
     text-decoration: inherit;
     color: #18a19a;
     font-weight: 900;
