@@ -106,6 +106,35 @@
 	#actividad .info-button.only-teacher, .info-template .info-title.only-teacher {
 		border: 0px;
 	}
+	
+	#actividad .info-button {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    -webkit-box-shadow: 0 0 2px #555;
+    -moz-box-shadow: 0 0 2px #555;
+    box-shadow: 0 0 2px #555;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #AE6075;
+    color: #e5e5e5;
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 1px 1px 1px #5E0404;
+    box-shadow: 1px 1px 1px 1px #5E0404;
+}
+
+#actividad .info-button:hover {
+    background: #e5e5e5;
+    color: #AE6075;
+    -webkit-box-shadow:inset 1px 1px 1px 1px #5E0404;
+	box-shadow:inset 1px 1px 1px 1px #5E0404;
+}
 
 	.content_type_clase_eli_demo #actividad .content .header .title img,
 	.content_type_clase_eli_demo #actividad .content .header .chapter {
