@@ -125,15 +125,15 @@
     line-height: 24px;
     text-align: center;
     cursor: pointer;
-    -webkit-box-shadow: 1px 1px 1px 1px #5E0404;
-    box-shadow: 1px 1px 1px 1px #5E0404;
+    -webkit-box-shadow: -1px 1px 1px 1px #5E0404;
+	box-shadow: -1px 1px 1px 1px #5E0404;
 }
 
 #actividad .info-button:hover {
-    background: #e5e5e5;
-    color: #AE6075;
-    -webkit-box-shadow:inset 1px 1px 1px 1px #5E0404;
-	box-shadow:inset 1px 1px 1px 1px #5E0404;
+    background: #945263;
+    color: #e5e5e5;
+    -webkit-box-shadow: 0px 0px 0px 0px #5E0404;
+	box-shadow: 0px 0px 0px 0px #5E0404;
 }
 
 	.content_type_clase_eli_demo #actividad .content .header .title img,
