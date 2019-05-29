@@ -103,6 +103,10 @@
 		position: relative;
 	}
 
+	#actividad .info-button.only-teacher, .info-template .info-title.only-teacher {
+		border: 0px;
+	}
+
 	.content_type_clase_eli_demo #actividad .content .header .title img,
 	.content_type_clase_eli_demo #actividad .content .header .chapter {
 		display: none;
