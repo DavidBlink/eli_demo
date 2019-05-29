@@ -125,8 +125,8 @@
     line-height: 24px;
     text-align: center;
     cursor: pointer;
-    -webkit-box-shadow: -1px 1px 1px 1px #5E0404;
-	box-shadow: -1px 1px 1px 1px #5E0404;
+    -webkit-box-shadow: 0 1px 0 0.5px #5E0404;
+	box-shadow: 0 1px 0 0.5px #5E0404;
 }
 
 #actividad .info-button:hover {
